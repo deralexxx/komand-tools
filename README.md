@@ -23,6 +23,10 @@ optional arguments:
   -j JOB, --job JOB    show job status
 ```
 
+# API documentation
+
+Documentation is currently here: https://github.com/deralexxx/komand-hacks/blob/master/api/README.md
+
 # Open issues
 
 # Contributing
