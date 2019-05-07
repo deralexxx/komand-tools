@@ -77,7 +77,7 @@ def getJobStatus(token=None,jobid=None):
     data2 = {"jobid": jobid}
 
     request = urllib.request.Request(
-        "https://komand-dev.gcert.basf.net/v2/jobs/"+jobid,
+        KOMAND_BASEURL+"/v2/jobs/"+jobid,
         data=bytes(json.dumps(data2), encoding="utf-8"))
 
     request.add_header('Authorization', auth_header)
